@@ -1,0 +1,95 @@
+/* about */
+.about {
+  display: flex;
+  padding: 200px 100px 50px 100px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.about img {
+  width: 50%;
+}
+
+.about .text {
+  width: 40%;
+}
+
+/* vision and mission */
+.vision-mission {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.vision-mission .content {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.vision-mission .box {
+  width: 50%;
+}
+
+/* service */
+.service {
+  text-align: center;
+  padding: 100px 50px;
+}
+
+.service .content {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service .box {
+  background: #53dd43;
+  padding: 30px 20px;
+  color: white;
+  max-width: 320px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .vision-mission .content {
+    flex-direction: column;
+  }
+  .vision-mission .box {
+    width: 100%;
+  }
+  .about {
+    flex-direction: column;
+  }
+
+  .about img,
+  .about .text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    padding: 200px 50px 50px 50px;
+  }
+
+  .vision-mission,
+  .service {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about {
+    padding: 200px 20px 50px 20px;
+  }
+
+  .vision-mission,
+  .service {
+    padding: 50px 20px;
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="" class="logo" />
+        <div class="toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="menuNav">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/profile.html">Our Profile</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#messageSec">Message Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about">
+        <img src="img/heroimg.svg" alt="" />
+        <div class="text">
+          <h1>About <span>GreenEarth</span></h1> <br>
+          <p>
+            At GreenEarth, we are passionate about preserving and protecting our natural
+            environment. We believe that through education, awareness, and collective
+            action, we can make a significant impact on the health and sustainability of
+            our planet. GreenEarth serves as a platform for sharing knowledge, inspiring
+            action, and fostering a global community dedicated to conserving nature.
+          </p>
+        </div>
+      </section>
+
+      <section class="vision-mission">
+        <h1>Our <span>Vision</span> and <span>Mission</span></h1>
+        <div class="content">
+          <div class="box">
+            <h2><span>Vision</span></h2>
+            <br />
+            <p>
+              Our vision is to create a world where humans coexist harmoniously with
+              nature, valuing and protecting the Earth's ecosystems for future
+              generations. We envision a future where every individual understands the
+              importance of environmental conservation and takes proactive steps to
+              minimize their ecological footprint.
+            </p>
+          </div>
+          <div class="box">
+            <h2><span>Mission</span></h2>
+            <br />
+            <p>
+              Our mission is to provide accessible and engaging environmental education,
+              resources, and initiatives that empower individuals and communities to
+              become stewards of the natural world. Through our comprehensive range of
+              programs, events, and social media content, we strive to raise awareness,
+              inspire action, and drive positive change towards a more sustainable future.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="service">
+        <h1>What <span>GreanEarth</span> do</h1>
+        <br />
+        <br />
+        <div class="content">
+          <div class="box">
+            <h2>Education</h2>
+            <br />
+            <p>
+              We offer a wide range of educational resources, articles, and interactive
+              tools that promote understanding and appreciation of the natural world. Our
+              goal is to equip individuals with the knowledge and skills necessary to make
+              informed decisions that benefit the environment.
+            </p>
+          </div>
+          <div class="box">
+            <h2>Event</h2>
+            <br />
+            <p>
+              GreenEarth organizes various events, including workshops, seminars, and
+              conferences, to facilitate dialogue, networking, and collaboration among
+              environmental enthusiasts, experts, and organizations. These events provide
+              opportunities for learning, sharing experiences, and driving collective
+              action.
+            </p>
+          </div>
+          <div class="box">
+            <h2>Social Media</h2>
+            <br />
+            <p>
+              Stay connected with us through our vibrant social media platforms. We
+              regularly share inspiring content, informative articles, and updates on
+              environmental initiatives. Join our online community to engage in
+              discussions, share ideas, and stay up-to-date with the latest news in the
+              field of environmental conservation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="messageSec" class="messageSec">
+        <h1 align="center">Leave us a message</h1>
+        <div class="message">
+          <form id="messageForm" class="messageForm">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="personName" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <button class="button" type="submit">Submit</button>
+          </form>
+
+          <div class="messageInfo">
+            <h2>Message Information</h2>
+            <div id="userInfo" class="userInfo">No information available yet.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
